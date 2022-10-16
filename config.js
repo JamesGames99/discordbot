@@ -1,12 +1,12 @@
 module.exports = {
-  OWNER_IDS: [], // Bot owner ID's
-  PREFIX: "!", // Default prefix for the bot
+  OWNER_IDS: [1010481995341639731], // Bot owner ID's
+  PREFIX: "sus ", // Default prefix for the bot
   SUPPORT_SERVER: "", // Your bot support server
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} members in {servers} servers", // Your bot status message
+    MESSAGE: "The Crewmates", // Your bot status message
   },
   DASHBOARD: {
     enabled: false, // enable or disable dashboard
@@ -15,7 +15,7 @@ module.exports = {
     port: "8080", // port to run the bot on
   },
   INTERACTIONS: {
-    SLASH: false, // Should the interactions be enabled
+    SLASH: true, // Should the interactions be enabled
     CONTEXT: false, // Should contexts be enabled
     GLOBAL: false, // Should the interactions be registered globally
     TEST_GUILD_ID: "xxxxxxxxxx", // Guild ID where the interactions should be registered. [** Test you commands here first **]
@@ -90,6 +90,6 @@ MUSIC: {
     MEMBERS: 10000,
   },
   MESSAGES: {
-    API_ERROR: "Unexpected Backend Error! Try again later or contact support server",
+    API_ERROR: "Unexpected error! Please contact a bot developer or progameremail453.2@gmail.com",
   },
 };
